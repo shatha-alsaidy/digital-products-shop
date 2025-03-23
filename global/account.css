@@ -1,0 +1,93 @@
+:root {
+    /* Colors */
+    --pink-main: #f4dedc;
+    --pink-second: #f9f3ee;
+    --pink-third: #fcf5f5;
+    --green-main: #cdd4b2;
+    --green-second: #d6ddbd;
+    --green-third: #f5f6ea;
+
+    /* Fonts */
+    --font-handwritten: 'Caveat', cursive;     /* For creative headings */
+    --font-heading: 'Montserrat', sans-serif;   /* For normal headings */
+    --font-paragraph: 'Lora', serif;            /* For body text */
+}
+
+h2{
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+/* container   */
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* profile */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-family: var(--font-heading);
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/*  phone-container */
+.phone-container {
+    display: flex;
+    gap: 5px;
+}
+
+.phone-container select {
+    width: 30%;
+}
+
+/* save button */
+button {
+    background: #f9dddb;
+    color: #333;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: var(--font-heading);
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #f4c5c1;
+}

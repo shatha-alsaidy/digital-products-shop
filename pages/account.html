@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Printology</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="../global/main.css">
+    <link rel="stylesheet" href="../global/account.css">
+    
+    </head>
+    <body>
+    
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <!-- Left: Search Icon -->
+        <div class="header-left">
+        <i class="fas fa-search"></i>
+        </div>
+    
+        <!-- Center: Logo -->
+        <div class="header-center">
+        <img src="../images/CPCS403_WebsiteLogo.png" alt="Logo" class="logo">
+        </div>
+    
+        <!-- Right: Profile + Cart Icons -->
+        <div class="header-right">
+            <a href="account.html" class="icon-link" aria-label="User Profile">
+                <i class="fas fa-user"></i>
+              </a>
+              <a href="cart.html" class="icon-link" aria-label="Shopping Cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+        </div>
+    </header>
+    
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Tutorials.html">Tutorials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+<!-- MAIN CONTENT -->
+<main>
+    <div class="main-container">
+        <!-- Profile Section -->
+        <div class="container">
+            <div class="profile">
+                <img src="../images/person.webp" alt="Profile Picture" class="profile-pic">
+                <h2>New Account</h2>
+            </div>
+
+            <!-- Form -->
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name">
+
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate">
+
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="phone">Phone Number</label>
+                <div class="phone-container">
+                    <select>
+                        <option value="+966">+966</option>
+                        <option value="+1">+1</option>
+                        <option value="+44">+44</option>
+                    </select>
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- FOOTER SECTION -->
+<footer class="footer">
+    <div class="footer-content">
+    <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+    <p class="copyright">&copy; 2025 Printology. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
